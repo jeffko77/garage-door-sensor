@@ -32,9 +32,9 @@ def sendEmail():
         server.sendmail(from1, to, email_text)
         server.close()
 
-        print 'Email sent!' 
+        print('Email sent!')
     except:  
-        print 'Something went wrong...'
+        print('Something went wrong...')
 
 
 mag_sensor = Button(6) #GPIO 6 should be used for the magnet.
