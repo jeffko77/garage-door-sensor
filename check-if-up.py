@@ -7,7 +7,7 @@ def sendEmail():
     import smtplib
 
     gmail_user = 'jeffko77@gmail.com'  
-    gmail_password = 'pyrayhtqiewyblwx'
+    gmail_password = 
 
     from1 = '8SommeCourt'
     #to = '3142651807@tmomail.net'  
