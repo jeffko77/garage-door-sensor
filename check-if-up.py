@@ -2,12 +2,14 @@ from gpiozero import Button
 from time import sleep
 #use GPIOzero to address GPIO ports
 
+#bring in environment variables
+import os
 
 def sendEmail():
     import smtplib
 
-    gmail_user = 'jeffko77@gmail.com'  
-    gmail_password = 
+    gmail_user = os.environ['GUNAME']
+    gmail_password = os.environ['GPW'] 
 
     from1 = '8SommeCourt'
     #to = '3142651807@tmomail.net'  
